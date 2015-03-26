@@ -1,16 +1,18 @@
 # Core
+
 Core is a lightweight, highly extensible library and framework for plugin-based systems.
 
 IMPORTANT: This library will probably not be developed much further, instead I will make a complete rewrite and redesign of the library which will also be called core and is available under [not-na/core2](https://github.com/not-na/core2).
 
-# Installation
+## Installation
+
 You will only need the file core.py, though it is recommended to use some extensions like core_essentials.
 Simply copy these files in your working directory and all plugins in the plugins folder and you are ready to go!
 
 Please note that core.py has not been tested with packagers such as py2exe or pyinstaller, plugins will likely not work.
 You may be able to circumvent this limit via explicitly defining "hidden" modules by appending plugins. before their name and adding an empty file __init__.py in the plugins directory.
 
-# Basic Features
+## Basic Features
 
 - Dynamic Plugin loading
 - Platform-independent (no os-specific features used)
